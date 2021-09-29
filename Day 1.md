@@ -36,10 +36,10 @@ This function is mandatory for professional security systems. It does not allow 
 
 ### What is UEFI? Difference between UEFI and BIOS?
 UEFI stands for Unified Extensible Firmware Interface. It does the same job as a BIOS, but with one basic difference: it stores all data about initialization and startup in an .efi file, instead of storing it on the firmware.
-    1. UEFI supports drive sizes upto 9 zettabytes, whereas BIOS only supports 2.2 terabytes.
-    2. UEFI provides faster boot time.
-    3. UEFI has discrete driver support, while BIOS has drive support stored in its ROM, so updating BIOS firmware is a bit difficult.
-    4. UEFI offers security like "Secure Boot", which prevents the computer from booting from unauthorized/unsigned applications.
+1. UEFI supports drive sizes upto 9 zettabytes, whereas BIOS only supports 2.2 terabytes.
+2. UEFI provides faster boot time.
+3. UEFI has discrete driver support, while BIOS has drive support stored in its ROM, so updating BIOS firmware is a bit difficult.
+4. UEFI offers security like "Secure Boot", which prevents the computer from booting from unauthorized/unsigned applications.
 
 
 ### Getty Command
