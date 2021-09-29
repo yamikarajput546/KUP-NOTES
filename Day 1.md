@@ -20,9 +20,12 @@ Elementary OS,
 Fedora,
 Elementary OS.
 
-  Each distribution can have a different focus - Your choice of distribution will depend on what you are trying to accomplish.
+### When should I go for Ubuntu & when for other systems?
 
-  Many distributions available to choose - Commercial and non-commercial. Commercial Linux distributions are backed by corporations, and you can buy support from    them. You have Linux distributions that are designed for server use, others that are designed for desktop use. Some are focused on research and science, others     are focused on multimedia production.
+
+Each distribution can have a different focus - Your choice of distribution will depend on what you are trying to accomplish.
+
+Many distributions available to choose - Commercial and non-commercial. Commercial Linux distributions are backed by corporations, and you can buy support from    them. You have Linux distributions that are designed for server use, others that are designed for desktop use. Some are focused on research and science, others    are focused on multimedia production.
   
 ### What is BIOS and system integrity checks?
 BIOS is short for Basic Input-Output system. It’s low-level software that resides in a chip on your computer’s motherboard. The BIOS loads when your computer starts up, and the BIOS is responsible for waking up your computer’s hardware components, ensures they’re functioning properly, and then runs the bootloader that boots Windows or whatever other operating system you have installed.
@@ -46,6 +49,20 @@ Linux provides virtual terminal(tty) which is similar to the regular Linux termi
 
 ### init 
 The init is a daemon process which starts as soon as the computer starts and continue running till, it is shutdown. In-fact init is the first process that starts when a computer boots, making it the parent of all other running processes directly or indirectly and hence typically it is assigned “pid=1“.
+### Init command
+init [OPTIONS...] COMMAND
+Send control commands to the init daemon.
+Commands:\
+
+0 Power-off the machine \
+6 Reboot the machine \
+2, 3, 4, 5 Start runlevelX.target unit \
+1, s, S Enter rescue mode \
+q, Q Reload init daemon configuration \
+u, U Reexecute init daemon \
+Options:
+--help Show this help
+--no-wall Don't send wall message before halt/power-off/reboot \
 
 ### systemd
 A systemd is a System Management Daemon named with UNIX convention to add ‘d‘ at the end of daemon.. Similar to init, systemd is the parent of all other processes directly or indirectly and is the first process that starts at boot hence typically assigned a “pid=1“.
@@ -65,6 +82,9 @@ Syntax: uname [OPTION]
 7. -p option: It prints the type of the processor.
 8. -i option: It prints the platform of the hardware.
 
+
+### What's the  mean of  systemd.unit(5)?
+systemd.unit(5) for the common options of all unit configuration files. The common configuration items areconfigured in the generic [Unit] and [Install] sections. The service specific configuration options are configured in the [Service] section.
 
 
 
