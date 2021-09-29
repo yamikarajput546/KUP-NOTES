@@ -8,3 +8,6 @@ The freedom referred to is the ability of anyone who wishes to run, copy, distri
 |  - | --------------------------- |
 | Linux is open source and is developed by Linux community of developers. |Unix was developed by AT&T Bell labs and is not open source.|
 | Linux is free to use. |Unix is licensed OS.|
+| Ext2, Ext3, Ext4, Jfs, ReiserFS, Xfs, Btrfs, FAT, FAT32, NTFS. | s, gpfs, hfs, hfs+, ufs, xfs, zfs.|
+| Linux is used in wide varieties from desktop, servers, smartphones to mainframes. | Unix is mostly used on servers, workstations or PCs.|
+| Distros are Ubuntu, Debian GNU, Arch Linux, etc.| SunOS, Solaris, SCO UNIX, AIX, HP/UX, ULTRIX etc.|
