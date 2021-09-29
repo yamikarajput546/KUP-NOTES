@@ -68,8 +68,8 @@ sudo netstat -tulpn | grep LISTEN
 '''
 
 where,
--t : All TCP ports
--u : All UDP ports
--l : display listening server
--p : show PID & name
+- '-t' : All TCP ports
+- '-u' : All UDP ports
+- '-l' : display listening server
+- '-p' : show PID & name
     
