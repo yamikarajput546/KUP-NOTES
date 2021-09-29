@@ -13,12 +13,11 @@ The freedom referred to is the ability of anyone who wishes to run, copy, distri
 | Distros are Ubuntu, Debian GNU, Arch Linux, etc.| SunOS, Solaris, SCO UNIX, AIX, HP/UX, ULTRIX etc.|
 
 ### What are different distros of linux and their purpose?
-Debian,
-Linux Mint,
-Ubuntu,
-Elementary OS,
-Fedora,
-Elementary OS.
+1.Debian : Bug Tracking, penetration testing, Network scanning
+2.CentOs : Rich base for open source communities
+3.Ubuntu : For personal computers & servers
+4.Fedora : Vast Software availability, Rapid release of softwares, excellent snap support
+
 
 ### When should I go for Ubuntu & when for other systems?
 
