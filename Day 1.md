@@ -13,12 +13,12 @@ The freedom referred to is the ability of anyone who wishes to run, copy, distri
 | Distros are Ubuntu, Debian GNU, Arch Linux, etc.| SunOS, Solaris, SCO UNIX, AIX, HP/UX, ULTRIX etc.|
 
 ### What are different distros of linux and their purpose?
-  Debian
-  Linux Mint
-  Ubuntu
-  Elementary OS
-  Fedora
-  Elementary OS
+Debian
+Linux Mint
+Ubuntu
+Elementary OS
+Fedora
+Elementary OS
 
   Each distribution can have a different focus - Your choice of distribution will depend on what you are trying to accomplish.
 
