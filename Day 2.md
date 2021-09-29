@@ -53,9 +53,9 @@ You can monitor the cgroups you configure, deny cgroups access to certain resour
 ### How to check which ports are being used by which process?
 
 Using lsof command
-'''
+```
 lsof -i -P -n | grep -i "listen"
-'''
+```
 
 where,
 
@@ -63,9 +63,9 @@ where,
 - '-P' : Inhibits the conversion of port numbers to port names for network files.
 - '-n' : Do not use DNS name
 ### Using netstat command
-'''
+```
 sudo netstat -tulpn | grep LISTEN
-'''
+```
 
 where,
 - '-t' : All TCP ports
