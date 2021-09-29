@@ -43,7 +43,8 @@ Both are same directory. It contains root binaries which are executable commands
 
 ### Cgroups:
 Cgroups allow you to allocate resources — such as CPU time, system memory, network bandwidth, or combinations of these resources — among user-defined groups of tasks (processes) running on a system. You can monitor the cgroups you configure, deny cgroups access to certain resources, and even reconfigure your cgroups dynamically on a running system. The cgconfig (control group config) service can be configured to start up at boot time and reestablish your predefined cgroups, thus making them persistent across reboots.
-How to check which ports are being used by which process?
+
+### How to check which ports are being used by which process?
 
 Using lsof command
 lsof -i -P -n | grep -i "listen"
