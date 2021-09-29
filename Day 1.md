@@ -86,7 +86,17 @@ Syntax: uname [OPTION]
 systemd.unit(5) for the common options of all unit configuration files. The common configuration items areconfigured in the generic [Unit] and [Install] sections. The service specific configuration options are configured in the [Service] section.
 
 
-
+### What does (5) mean in systemd.unit(5) ?
+| Number - | Meaning|
+|  -  | ------------------- |
+| 1 | General Commands |
+| 2 | System Calls |
+| 3 | Library functions, covering in particular the C standard library |
+| 4 | Special files (usually devices, those found in /dev) and drivers |
+| 5 | File formats and conventions |
+| 6 | Games and screensavers |
+| 7 | Miscellanea |
+| 8 | System administration commands and daemons |
 
 
 
