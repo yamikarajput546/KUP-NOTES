@@ -10,7 +10,7 @@
   `opt` : Special options for that specific rule. \
   `source`  : Source ip-address of the packet \
   `destination` : Destination ip-address for the packet \
-  `in` :                                           \
+                                           
   
   ### Can we block a website by its domain name only?
    Yes we can block a website by its domain name only by \
@@ -63,7 +63,6 @@ Run the following command on a client machine to initiate an SSH connection: \
 ### Difference between apt update & apt upgrade.
 “apt-get update” updates the package sources list to get the latest list of available packages in the repositories and “apt-get upgrade” updates all the packages presently installed in our Linux system to their latest versions.
 
-### Difference between apt & apt upgrade.
 
 
 
