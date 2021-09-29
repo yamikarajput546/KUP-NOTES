@@ -82,11 +82,11 @@ Syntax: uname [OPTION]
 8. -i option: It prints the platform of the hardware.
 
 
-### What's the  mean of  systemd.unit(5)?
+
+### What does (5) mean in systemd.unit(5) ?
 systemd.unit(5) for the common options of all unit configuration files. The common configuration items areconfigured in the generic [Unit] and [Install] sections. The service specific configuration options are configured in the [Service] section.
 
 
-### What does (5) mean in systemd.unit(5) ?
 | Number - | Meaning|
 |  -  | ------------------- |
 | 1 | General Commands |
